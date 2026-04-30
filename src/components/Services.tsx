@@ -41,11 +41,11 @@ const Services = () => {
           </h2>
         </div>
 
-        <div ref={ref} className="reveal grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
+        <div ref={ref} className="reveal flex flex-wrap justify-center gap-px bg-border">
           {services.map((s) => (
             <div
               key={s.title}
-              className="group bg-background p-10 transition-all duration-500 hover:bg-primary cursor-default"
+              className="group bg-background p-10 transition-all duration-500 hover:bg-primary cursor-default w-full sm:w-[calc(50%-1px)] lg:w-[calc(33.333%-1px)]"
             >
               <s.icon className="text-primary group-hover:text-[hsl(var(--gold))] transition-colors" size={36} strokeWidth={1.2} />
               <h3 className="mt-8 font-display text-2xl text-primary group-hover:text-background transition-colors">
