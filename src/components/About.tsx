@@ -13,21 +13,21 @@ const About = () => {
     <section id="about" className="py-28 md:py-36 bg-background">
       <div className="container-pro grid lg:grid-cols-12 gap-16 items-start">
         <div className="lg:col-span-5">
-          <div className="eyebrow mb-5">About ArcoNest</div>
+          <div className="eyebrow mb-5">About SAJ</div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary leading-[1.1] text-balance">
-            A finishing studio obsessed with detail.
+            A construction & finishing house obsessed with detail.
           </h2>
         </div>
 
         <div ref={ref} className="lg:col-span-7 reveal space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed">
           <p>
-            ArcoNest is a premium finishing and interior solutions company based in New Cairo.
-            We work with clients who want a home that feels considered — every line, every material,
-            every light fixture chosen with intent.
+            SAJ Construction & Finishing delivers premium construction and high-end finishing
+            for clients who demand precision, craftsmanship, and a flawless final result.
           </p>
           <p>
-            Led by experienced engineers and skilled craftsmen, we deliver full apartment finishing,
-            bespoke interiors, and turnkey solutions with transparent pricing and uncompromising quality.
+            Led by experienced engineers and skilled craftsmen, we manage every stage —
+            from structural construction to luxury finishing — with transparent pricing and
+            uncompromising quality.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-10 mt-6 border-t border-border">

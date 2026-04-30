@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="top" className="relative h-screen min-h-[700px] w-full overflow-hidden">
       <img
         src={hero}
-        alt="Luxury modern interior crafted by SAJ Construction"
+        alt="Luxury construction and finishing project by SAJ"
         className="absolute inset-0 h-full w-full object-cover scale-105"
         width={1920}
         height={1080}
@@ -18,21 +18,21 @@ const Hero = () => {
         <div className="max-w-3xl animate-fade-up">
           <div className="flex items-center gap-4 mb-6">
             <span className="hairline bg-[hsl(var(--gold))]" />
-            <span className="text-[hsl(var(--gold))] text-xs uppercase tracking-[0.3em]">Finishing & Interior Solutions</span>
+            <span className="text-[hsl(var(--gold))] text-xs uppercase tracking-[0.3em]">SAJ Construction & Finishing</span>
           </div>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-background leading-[1.05] text-balance">
-            We Turn Empty Spaces Into
-            <span className="block text-[hsl(var(--gold))] italic font-normal mt-2">Luxury Living Experiences</span>
+            Premium Construction.
+            <span className="block text-[hsl(var(--gold))] italic font-normal mt-2">Luxury Finishing.</span>
           </h1>
           <p className="mt-8 text-lg md:text-xl text-background/85 max-w-xl font-light leading-relaxed">
-            Premium finishing & interior solutions tailored to your style and budget.
+            Precision, craftsmanship, and attention to detail — for clients who demand excellence.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#contact"
               className="group inline-flex items-center gap-3 bg-[hsl(var(--gold))] text-primary px-8 py-4 text-sm font-semibold tracking-wide uppercase hover:bg-background transition-colors"
             >
-              Get a Free Consultation
+              Request a Consultation
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </a>
             <a

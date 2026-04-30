@@ -3,9 +3,9 @@ import { z } from "zod";
 import { Phone, MessageCircle, MapPin, ArrowRight } from "lucide-react";
 import { toast } from "sonner";
 
-const PHONE = "+20 111 373 5377";
-const PHONE_TEL = "+201113735377";
-const WHATSAPP = "https://wa.me/201113735377";
+const PHONE = "+20 10 0011 6438";
+const PHONE_TEL = "+201000116438";
+const WHATSAPP = "https://wa.me/201000116438";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Name is required").max(100),
@@ -33,7 +33,7 @@ const Contact = () => {
       return;
     }
     setSubmitting(true);
-    const text = `New ArcoNest inquiry%0A%0AName: ${encodeURIComponent(parsed.data.name)}%0APhone: ${encodeURIComponent(parsed.data.phone)}%0ALocation: ${encodeURIComponent(parsed.data.location)}%0AType: ${encodeURIComponent(parsed.data.projectType)}${parsed.data.message ? `%0AMessage: ${encodeURIComponent(parsed.data.message)}` : ""}`;
+    const text = `New SAJ inquiry%0A%0AName: ${encodeURIComponent(parsed.data.name)}%0APhone: ${encodeURIComponent(parsed.data.phone)}%0ALocation: ${encodeURIComponent(parsed.data.location)}%0AType: ${encodeURIComponent(parsed.data.projectType)}${parsed.data.message ? `%0AMessage: ${encodeURIComponent(parsed.data.message)}` : ""}`;
     window.open(`${WHATSAPP}?text=${text}`, "_blank", "noopener,noreferrer");
     toast.success("Thank you — opening WhatsApp to confirm your inquiry.");
     setSubmitting(false);
@@ -49,7 +49,7 @@ const Contact = () => {
             Book your consultation today.
           </h2>
           <p className="mt-6 text-primary-foreground/75 leading-relaxed max-w-md">
-            Tell us about your space. We'll respond within 24 hours with a tailored consultation — limited slots available this month.
+            Tell us about your project. We'll respond within 24 hours with a tailored consultation.
           </p>
 
           <div className="mt-12 space-y-6">
@@ -71,15 +71,15 @@ const Contact = () => {
               <MapPin size={20} className="text-[hsl(var(--gold))]" />
               <div>
                 <div className="text-xs uppercase tracking-[0.18em] text-[hsl(var(--gold))]/80">Based in</div>
-                <div className="font-display text-xl mt-1">New Cairo, Egypt</div>
+                <div className="font-display text-xl mt-1">Egypt</div>
               </div>
             </div>
           </div>
 
           <div className="mt-10 overflow-hidden border border-[hsl(var(--gold))]/30">
             <iframe
-              title="ArcoNest location — New Cairo"
-              src="https://www.google.com/maps?q=New+Cairo,+Egypt&output=embed"
+              title="SAJ location — Egypt"
+              src="https://www.google.com/maps?q=Cairo,+Egypt&output=embed"
               width="100%"
               height="220"
               loading="lazy"
@@ -103,10 +103,10 @@ const Contact = () => {
                 className="w-full bg-transparent border-0 border-b border-border py-3 text-sm focus:outline-none focus:border-primary transition-colors"
               >
                 <option value="" disabled>Select a service</option>
-                <option>Full Apartment Finishing</option>
+                <option>Construction</option>
+                <option>Full Finishing</option>
                 <option>Interior Design</option>
-                <option>Lighting & Electrical</option>
-                <option>Kitchens & Bathrooms</option>
+                <option>Renovation</option>
                 <option>Custom Solutions</option>
               </select>
             </div>
@@ -118,7 +118,7 @@ const Contact = () => {
               name="message"
               rows={4}
               maxLength={1000}
-              placeholder="Tell us a little about your space..."
+              placeholder="Tell us a little about your project..."
               className="w-full bg-transparent border-0 border-b border-border py-3 text-sm focus:outline-none focus:border-primary transition-colors resize-none"
             />
           </div>
