@@ -15,7 +15,7 @@ const Why = () => {
       <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-[hsl(var(--gold))]/10 blur-3xl" />
       <div className="container-pro relative">
         <div className="max-w-2xl mb-16">
-          <div className="text-xs uppercase tracking-[0.25em] font-medium text-[hsl(var(--gold))] mb-5">Why Choose ArcoNest</div>
+          <div className="text-xs uppercase tracking-[0.25em] font-medium text-[hsl(var(--gold))] mb-5">Why Choose SAJ</div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.1] text-balance">
             Standards you can feel — long after handover.
           </h2>

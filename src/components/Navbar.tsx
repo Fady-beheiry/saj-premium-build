@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/arconest-logo.png";
+import logo from "@/assets/saj-logo.png";
 import { Menu, X } from "lucide-react";
 
 const links = [
@@ -32,11 +32,11 @@ const Navbar = () => {
       <nav className="container-pro flex items-center justify-between h-20">
         <a href="#top" className="flex items-center gap-3">
           <div className="h-11 w-11 rounded-sm overflow-hidden bg-primary flex items-center justify-center">
-            <img src={logo} alt="ArcoNest logo" className="h-full w-full object-cover" />
+            <img src={logo} alt="SAJ Construction & Finishing logo" className="h-full w-full object-cover" />
           </div>
           <div className="leading-tight">
-            <div className={`font-display text-lg tracking-wide ${scrolled ? "text-primary" : "text-background"}`}>ArcoNest</div>
-            <div className={`text-[10px] uppercase tracking-[0.25em] ${scrolled ? "text-muted-foreground" : "text-background/80"}`}>Finishing & Interior</div>
+            <div className={`font-display text-lg tracking-wide ${scrolled ? "text-primary" : "text-background"}`}>SAJ</div>
+            <div className={`text-[10px] uppercase tracking-[0.25em] ${scrolled ? "text-muted-foreground" : "text-background/80"}`}>Construction & Finishing</div>
           </div>
         </a>
 
