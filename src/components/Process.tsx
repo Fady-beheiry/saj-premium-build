@@ -22,7 +22,7 @@ const Process = () => {
         <div ref={ref} className="reveal relative grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-border">
           {steps.map((s) => (
             <div key={s.n} className="bg-background p-10">
-              <div className="font-display text-5xl text-secondary">{s.n}</div>
+              <div className="font-display text-5xl text-[hsl(var(--gold))]">{s.n}</div>
               <h3 className="font-display text-2xl text-primary mt-6">{s.t}</h3>
               <p className="mt-4 text-sm text-muted-foreground leading-relaxed">{s.d}</p>
             </div>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/saj-logo.png";
+import logo from "@/assets/arconest-logo.png";
 import { Menu, X } from "lucide-react";
 
 const links = [
@@ -31,12 +31,12 @@ const Navbar = () => {
     >
       <nav className="container-pro flex items-center justify-between h-20">
         <a href="#top" className="flex items-center gap-3">
-          <div className={`h-11 w-11 rounded-sm overflow-hidden flex items-center justify-center transition-colors ${scrolled ? "bg-primary" : "bg-primary/90"}`}>
-            <img src={logo} alt="SAJ Construction logo" className="h-full w-full object-cover" />
+          <div className="h-11 w-11 rounded-sm overflow-hidden bg-primary flex items-center justify-center">
+            <img src={logo} alt="ArcoNest logo" className="h-full w-full object-cover" />
           </div>
           <div className="leading-tight">
-            <div className={`font-display text-lg tracking-wide ${scrolled ? "text-primary" : "text-background"}`}>SAJ</div>
-            <div className={`text-[10px] uppercase tracking-[0.25em] ${scrolled ? "text-muted-foreground" : "text-background/80"}`}>Construction & Finishing</div>
+            <div className={`font-display text-lg tracking-wide ${scrolled ? "text-primary" : "text-background"}`}>ArcoNest</div>
+            <div className={`text-[10px] uppercase tracking-[0.25em] ${scrolled ? "text-muted-foreground" : "text-background/80"}`}>Finishing & Interior</div>
           </div>
         </a>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
             <li key={l.href}>
               <a
                 href={l.href}
-                className={`text-sm font-medium tracking-wide transition-colors hover:text-secondary ${
+                className={`text-sm font-medium tracking-wide transition-colors hover:text-[hsl(var(--gold))] ${
                   scrolled ? "text-foreground" : "text-background"
                 }`}
               >
@@ -63,7 +63,7 @@ const Navbar = () => {
               : "bg-transparent text-background border-background/60 hover:bg-background hover:text-primary"
           }`}
         >
-          Get a Quote
+          Free Consultation
         </a>
 
         <button
@@ -95,7 +95,7 @@ const Navbar = () => {
                 href="#contact"
                 className="block w-full text-center bg-primary text-primary-foreground py-3 font-medium"
               >
-                Get a Quote
+                Free Consultation
               </a>
             </li>
           </ul>

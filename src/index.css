@@ -4,52 +4,56 @@
 
 @layer base {
   :root {
-    /* SAJ Brand palette */
-    --background: 36 33% 96%;          /* off-white #F7F4EE */
-    --foreground: 200 32% 18%;         /* deep teal text */
+    /* ArcoNest Brand palette — Deep burgundy + gold + soft beige */
+    --background: 36 30% 96%;          /* soft off-white */
+    --foreground: 0 35% 14%;           /* deep burgundy text */
 
     --card: 0 0% 100%;
-    --card-foreground: 200 32% 18%;
+    --card-foreground: 0 35% 14%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 200 32% 18%;
+    --popover-foreground: 0 35% 14%;
 
-    --primary: 198 38% 27%;            /* deep teal #2C5C6E */
-    --primary-foreground: 36 33% 96%;
+    --primary: 0 55% 26%;              /* deep burgundy #6B1F1F */
+    --primary-foreground: 36 30% 96%;
 
-    --secondary: 35 30% 82%;           /* warm beige #DDCFB6 */
-    --secondary-foreground: 200 32% 18%;
+    --secondary: 36 38% 88%;           /* soft beige */
+    --secondary-foreground: 0 35% 14%;
 
-    --muted: 36 20% 92%;
-    --muted-foreground: 200 12% 38%;
+    --muted: 36 22% 93%;
+    --muted-foreground: 0 10% 36%;
 
-    --accent: 35 35% 75%;              /* lighter beige */
-    --accent-foreground: 200 32% 18%;
+    --accent: 36 55% 52%;              /* gold accent */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 35 18% 84%;
-    --input: 35 18% 84%;
-    --ring: 198 38% 27%;
+    --border: 36 18% 86%;
+    --input: 36 18% 86%;
+    --ring: 0 55% 26%;
 
     --radius: 0.25rem;
 
     /* Brand tokens */
-    --teal: 198 38% 27%;
-    --teal-deep: 200 42% 20%;
-    --beige: 35 30% 82%;
-    --beige-warm: 32 40% 78%;
-    --offwhite: 36 33% 96%;
-    --charcoal: 200 20% 14%;
+    --burgundy: 0 55% 26%;
+    --burgundy-deep: 0 60% 18%;
+    --burgundy-rich: 0 50% 32%;
+    --gold: 36 60% 55%;
+    --gold-soft: 36 50% 70%;
+    --beige: 36 38% 88%;
+    --beige-warm: 32 45% 82%;
+    --offwhite: 36 30% 96%;
+    --charcoal: 0 10% 12%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(var(--teal-deep) / 0.85), hsl(var(--teal) / 0.55));
-    --gradient-overlay: linear-gradient(180deg, hsl(var(--teal-deep) / 0.1), hsl(var(--teal-deep) / 0.85));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--burgundy-deep) / 0.85), hsl(var(--burgundy) / 0.55));
+    --gradient-overlay: linear-gradient(180deg, hsl(var(--burgundy-deep) / 0.15), hsl(var(--burgundy-deep) / 0.9));
     --gradient-beige: linear-gradient(135deg, hsl(var(--beige)), hsl(var(--beige-warm)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-soft)));
 
-    --shadow-elegant: 0 30px 80px -20px hsl(var(--teal) / 0.25);
-    --shadow-soft: 0 10px 40px -10px hsl(var(--teal) / 0.12);
-    --shadow-card: 0 1px 3px hsl(var(--teal) / 0.06), 0 12px 40px -12px hsl(var(--teal) / 0.18);
+    --shadow-elegant: 0 30px 80px -20px hsl(var(--burgundy) / 0.3);
+    --shadow-soft: 0 10px 40px -10px hsl(var(--burgundy) / 0.15);
+    --shadow-card: 0 1px 3px hsl(var(--burgundy) / 0.06), 0 12px 40px -12px hsl(var(--burgundy) / 0.2);
 
     --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
 
