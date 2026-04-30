@@ -1,4 +1,4 @@
-import { Home, Palette, Lightbulb, ChefHat, Wrench } from "lucide-react";
+import { Home, Palette, Lightbulb, ChefHat, Wrench, Hammer } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 const services = [
@@ -26,6 +26,11 @@ const services = [
     icon: Wrench,
     title: "Custom Solutions",
     desc: "Built-in furniture, smart home, and one-off requests — engineered to your exact specification.",
+  },
+  {
+    icon: Hammer,
+    title: "Construction & Renovation",
+    desc: "Structural construction and full renovations — managed end-to-end with engineering precision.",
   },
 ];
 
