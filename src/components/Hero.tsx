@@ -17,29 +17,29 @@ const Hero = () => {
       <div className="relative z-10 container-pro h-full flex flex-col justify-end pb-24 md:pb-32">
         <div className="max-w-3xl animate-fade-up">
           <div className="flex items-center gap-4 mb-6">
-            <span className="hairline bg-secondary/80" />
-            <span className="text-secondary text-xs uppercase tracking-[0.3em]">Construction & Finishing</span>
+            <span className="hairline bg-[hsl(var(--gold))]" />
+            <span className="text-[hsl(var(--gold))] text-xs uppercase tracking-[0.3em]">Finishing & Interior Solutions</span>
           </div>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-background leading-[1.05] text-balance">
-            From Concept to Completion
-            <span className="block text-secondary italic font-normal mt-2">— Built with Precision</span>
+            We Turn Empty Spaces Into
+            <span className="block text-[hsl(var(--gold))] italic font-normal mt-2">Luxury Living Experiences</span>
           </h1>
           <p className="mt-8 text-lg md:text-xl text-background/85 max-w-xl font-light leading-relaxed">
-            We craft spaces that combine structure, detail, and vision.
+            Premium finishing & interior solutions tailored to your style and budget.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#contact"
-              className="group inline-flex items-center gap-3 bg-secondary text-primary px-8 py-4 text-sm font-semibold tracking-wide uppercase hover:bg-background transition-colors"
+              className="group inline-flex items-center gap-3 bg-[hsl(var(--gold))] text-primary px-8 py-4 text-sm font-semibold tracking-wide uppercase hover:bg-background transition-colors"
             >
-              Get a Quote
+              Get a Free Consultation
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </a>
             <a
               href="#projects"
               className="inline-flex items-center gap-3 border border-background/60 text-background px-8 py-4 text-sm font-semibold tracking-wide uppercase hover:bg-background hover:text-primary transition-colors"
             >
-              View Projects
+              View Our Work
             </a>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import { useReveal } from "@/hooks/use-reveal";
 
 const stats = [
-  { v: "15+", l: "Years of Excellence" },
-  { v: "200+", l: "Projects Delivered" },
-  { v: "98%", l: "Client Satisfaction" },
-  { v: "100%", l: "On-Time Completion" },
+  { v: "5.0★", l: "Client Satisfaction" },
+  { v: "200+", l: "Spaces Delivered" },
+  { v: "100%", l: "Engineer-Supervised" },
+  { v: "On Time", l: "Every Project" },
 ];
 
 const About = () => {
@@ -13,21 +13,21 @@ const About = () => {
     <section id="about" className="py-28 md:py-36 bg-background">
       <div className="container-pro grid lg:grid-cols-12 gap-16 items-start">
         <div className="lg:col-span-5">
-          <div className="eyebrow mb-5">About SAJ</div>
+          <div className="eyebrow mb-5">About ArcoNest</div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary leading-[1.1] text-balance">
-            Crafted with intention. Built to endure.
+            A finishing studio obsessed with detail.
           </h2>
         </div>
 
         <div ref={ref} className="lg:col-span-7 reveal space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed">
           <p>
-            SAJ Construction & Finishing is a premium build studio dedicated to clients who refuse compromise.
-            We unite engineering precision with refined finishing to deliver spaces that read as inevitable —
-            quietly luxurious, structurally sound, and detailed to the millimeter.
+            ArcoNest is a premium finishing and interior solutions company based in New Cairo.
+            We work with clients who want a home that feels considered — every line, every material,
+            every light fixture chosen with intent.
           </p>
           <p>
-            From private residences to commercial landmarks, our team manages every phase in-house — bringing
-            architectural intent, material selection, and skilled craftsmanship under a single, accountable roof.
+            Led by experienced engineers and skilled craftsmen, we deliver full apartment finishing,
+            bespoke interiors, and turnkey solutions with transparent pricing and uncompromising quality.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-10 mt-6 border-t border-border">
